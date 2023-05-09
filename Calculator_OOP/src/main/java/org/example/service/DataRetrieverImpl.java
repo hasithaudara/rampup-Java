@@ -23,7 +23,7 @@ public class DataRetrieverImpl implements IDataRetriever{
 
         System.out.print("Enter your desired operation : (+,-,*,/)");
         getInput = new Scanner(System.in);
-        String selectedOperation = getInput.next();
+        String selectedOperation = getInput.next(  );
         userDataDTO.setOperation(selectedOperation);
 
         return userDataDTO;
