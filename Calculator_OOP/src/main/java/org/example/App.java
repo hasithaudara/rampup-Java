@@ -5,8 +5,6 @@ import org.example.dto.ResultDTO;
 import org.example.dto.UserDataDTO;
 import org.example.service.*;
 
-import java.util.Scanner;
-
 /**
  * Hello world!
  */
