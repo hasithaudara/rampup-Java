@@ -25,6 +25,7 @@ public class App {
             System.out.println(resultDTO.getResult());
 
             if (dataRetriever.endUserInteraction()) {
+                System.out.println("Exiting the application");
                 break;
             }
         }
